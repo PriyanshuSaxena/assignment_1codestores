@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to right,red,purple);
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+.container {
+    background-image: linear-gradient(to left,rgb(39, 0, 112),rgb(255, 25, 244));
+    text-align: center;
+    width: 50vw;
+    height: 85vh;
+    margin: auto;
+    font-size: x-large;
+}

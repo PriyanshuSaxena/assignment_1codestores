@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car EMI Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Car EMI Calculator</h1>
+        <p><h3>Loan Amount :-</h3>Rs.<input type="number" name="amount" placeholder="Enter the Price" id="amount" value="" onchange="calculateloan()" > </p > 
+        <p><h3>Intrest :-</h3><input type="number" name="intrest" placeholder="Enter the Intrest" id="intrest" value="" onchange="calculateloan()">%</p>
+        <p><h3>Time Period In Months:-</h3><input type="number" name="time" id="time" placeholder="Enter months" value="" onchange="calculateloan()"></p>
+        <h2 id="premium"> Hit Enter To Calculate Premium</h2>
+        
+    </div>
+<script src="emi.js"></script>
+
+
+</body>
+
+</html>
